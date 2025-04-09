@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: 
+        radial-gradient(circle at 50% 0, rgba(255,0,0, 0.5), rgba(255,0,0,0) 70%),
+        radial-gradient(circle at 7% 75%, rgba(0,0,255, 0.5), rgba(255,0,0,0) 70%),
+        radial-gradient(circle at 93% 75%, rgba(0,255,0, 0.5), rgba(255,0,0,0) 70%);
+        }
+
+        .box {
+            width: 400px;
+            height: 600px;
+            padding: 10px 20px;
+            border: 1px solid;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+    </style>
+    <title>로그인페이지</title>
+</head>
+<body>
+    <div class="box">
+        <img src="aloha.png" alt="" 
+        style=" width: 200px; height: 100; position: relative; 
+        top:20%; left: 50%; transform:translate(-50%,-50%) ; margin-bottom: 60px;">
+
+        <input type="text" placeholder="아이디" required
+        style="width: 100%; padding: 10px; margin-bottom:15px; box-sizing: border-box;" />
+
+        <input type="password" placeholder="비밀번호" required
+        style="width: 100%; padding: 10px; margin-bottom: 15px; box-sizing: border-box;" />
+
+        <input type="checkbox" id="id" style="margin-bottom: 10px;">
+        <label for="id">아이디 저장</label>
+        <input type="checkbox" id="login" style="margin-bottom: 40px;"/>
+        <label for="login">자동 로그인 </label>
+        
+        <button type="button"
+                 style="width:400px; height: 50px; padding: 12px; background-color: blue; color: white;  margin-bottom: 10px; font-size: 14px; cursor: pointer;"
+        >로그인</button>
+        <button type="button"
+                style="width: 400px; height: 50px; padding: 12px; background-color: blue; color: white; margin-bottom: 20px; font-size: 14px; cursor:pointer;"
+        >회원가입</button>
+ 
+        <p><b>Copyrightⓒ 2022 ALOHA CLASS. All right reserved</b></p>
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
