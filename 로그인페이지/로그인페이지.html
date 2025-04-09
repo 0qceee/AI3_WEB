@@ -22,35 +22,38 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-
-
     </style>
     <title>로그인페이지</title>
 </head>
 <body>
     <div class="box">
+        <!-- 이미지 생성 -->
         <img src="aloha.png" alt="" 
         style=" width: 200px; height: 100; position: relative; 
         top:20%; left: 50%; transform:translate(-50%,-50%) ; margin-bottom: 60px;">
-
+        <!-- 아이디, 비밀번호 input -->
         <input type="text" placeholder="아이디" required
         style="width: 100%; padding: 10px; margin-bottom:15px; box-sizing: border-box;" />
-
         <input type="password" placeholder="비밀번호" required
-        style="width: 100%; padding: 10px; margin-bottom: 15px; box-sizing: border-box;" />
-
+        style="width: 100%; padding: 10px; margin-bottom: 25px; box-sizing: border-box;" />
+        <!-- 아이디저장, 자동로그인 checkbox -->
         <input type="checkbox" id="id" style="margin-bottom: 10px;">
         <label for="id">아이디 저장</label>
         <input type="checkbox" id="login" style="margin-bottom: 40px;"/>
         <label for="login">자동 로그인 </label>
-        
+        <!-- 버튼 -->
+         <!-- onmouseover = button.hover을 css에서 등록했어야됐는데 html로 모두 작성해서 대체 -->
         <button type="button"
                  style="width:400px; height: 50px; padding: 12px; background-color: blue; color: white;  margin-bottom: 10px; font-size: 14px; cursor: pointer;"
+                 onmouseover="this.style.backgroundColor='#4c00ff'"     
+                 onmouseout="this.style.backgroundColor='blue'"
         >로그인</button>
         <button type="button"
                 style="width: 400px; height: 50px; padding: 12px; background-color: blue; color: white; margin-bottom: 20px; font-size: 14px; cursor:pointer;"
+                onmouseover="this.style.backgroundColor='#4c00ff'"
+                onmouseout="this.style.backgroundColor='blue'"
         >회원가입</button>
- 
+        
         <p><b>Copyrightⓒ 2022 ALOHA CLASS. All right reserved</b></p>
 
 
